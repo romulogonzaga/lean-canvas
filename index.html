@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lean Canvas - Fixed View</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="capture-area" class="app-container">
+    <div class="top-stripe"></div>
+    
+    <header>
+        <h1>Lean Canvas | Prof. Rômulo Gonzaga</h1>
+        <div class="header-info">
+            <div class="field">
+                <label>ALUNO:</label>
+                <input type="text" id="aluno" placeholder="Nome Completo">
+            </div>
+            <div class="field">
+                <label>TURMA:</label>
+                <input type="text" id="grupo" placeholder="Grupo/ID">
+            </div>
+        </div>
+    </header>
+
+    <main class="canvas-grid">
+        <div class="block problem">
+            <h3>1. Problema</h3>
+            <textarea class="editable-area" placeholder="• Problema 1&#10;• Problema 2&#10;• Problema 3"></textarea>
+        </div>
+        <div class="block solution">
+            <h3>4. Solução</h3>
+            <textarea class="editable-area" placeholder="Como você resolve o problema?"></textarea>
+        </div>
+        <div class="block key-metrics">
+            <h3>8. Métricas</h3>
+            <textarea class="editable-area" placeholder="Números que importam..."></textarea>
+        </div>
+        <div class="block value-proposition">
+            <h3>2. Proposta de Valor</h3>
+            <textarea class="editable-area" placeholder="O que te faz único?"></textarea>
+        </div>
+        <div class="block unfair-advantage">
+            <h3>9. Vantagem Injusta</h3>
+            <textarea class="editable-area" placeholder="O que não podem copiar?"></textarea>
+        </div>
+        <div class="block channels">
+            <h3>5. Canais</h3>
+            <textarea class="editable-area" placeholder="Como chega ao cliente?"></textarea>
+        </div>
+        <div class="block customer-segments">
+            <h3>3. Segmentos</h3>
+            <textarea class="editable-area" placeholder="Público e Early Adopters"></textarea>
+        </div>
+        <div class="block cost-structure">
+            <h3>6. Estrutura de Custos</h3>
+            <textarea class="editable-area" placeholder="Gastos principais..."></textarea>
+        </div>
+        <div class="block revenue-streams">
+            <h3>7. Fontes de Receita</h3>
+            <textarea class="editable-area" placeholder="Como o dinheiro entra?"></textarea>
+        </div>
+    </main>
+
+    <footer>
+        <button id="btn-print">EXPORTAR CANVAS (PNG)</button>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
