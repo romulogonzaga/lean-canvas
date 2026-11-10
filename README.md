@@ -1,4 +1,4 @@
-# romulogonzaga.github.io-lean-canvas
+# Lean Canvas
 Este projeto é uma ferramenta educacional desenvolvida para auxiliar alunos na unidade curricular de "Projeto de Inovação: Modelagem de projetos – Design Thinking e Canvas" . Ele permite a criação de um modelo de negócio enxuto (Lean Canvas) diretamente no navegador, com uma identidade visual moderna e funcionalidade de exportação de imagem.
 
 ## 🛠️ Tecnologias Utilizadas
@@ -22,3 +22,17 @@ Este projeto é uma ferramenta educacional desenvolvida para auxiliar alunos na 
 
 ## 📌 Contexto Educacional
 Esta ferramenta faz parte da metodologia de integração entre **Estratégia de Empresa** e **Educação para Inovação**, facilitando a transição da ideia de negócio para a estruturação do TCC (Trabalho de Conclusão de Curso).
+
+
+## Estrutura
+
+- `index.html`: identificação do aluno e os nove blocos do Canvas.
+- `style.css`: estilos e organização visual.
+- `script.js`: exportação em PNG com html2canvas.
+
+A biblioteca html2canvas é carregada por CDN; a exportação requer acesso à internet para carregar essa dependência. Exporte o resultado antes de fechar ou recarregar a página: os campos não têm salvamento automático.
+
+## Ferramentas relacionadas
+
+- [Mapa de Empatia](https://github.com/romulogonzaga/mapa-empatia): organize descobertas sobre o usuário.
+- [Project Model Canvas](https://github.com/romulogonzaga/project-model-canvas): estruture a execução do projeto.
